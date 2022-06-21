@@ -1,0 +1,16 @@
+kaggle kernels output atharvaingle/uspppm-checkpoints-171-172 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-173-174 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-175-176 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-177-178 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-179-181 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-182-183 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-184 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-196 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-197 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-198 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-199 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-200 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-201 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-204-205 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-206-207 -p ./checkpoints
+kaggle kernels output atharvaingle/uspppm-checkpoints-208-209 -p ./checkpoints

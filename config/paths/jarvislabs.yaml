@@ -1,0 +1,23 @@
+# root directories
+code_dir: /home/US-Patent-Matching-Kaggle
+data_dir: /home/US-Patent-Matching-Kaggle/input
+artifacts_dir: /home/us_patent_artifacts
+
+# data
+train: ${paths.data_dir}/train.csv
+test: ${paths.data_dir}/test.csv
+sample_submission: ${paths.data_dir}/sample_submission.csv
+
+cpc_scheme_xml_202105: ${paths.code_dir}/input/CPCSchemeXML202105
+cpc_title_list_202202: ${paths.code_dir}/input/CPCTitleList202202
+
+# logging, secrets, etc
+env_file: ${paths.code_dir}/secrets/.env
+gcs_credentials: ${paths.code_dir}/secrets/gcs_credentials.json
+
+# output files
+out_dir: ${paths.artifacts_dir}/${run.experiment_name}/fold_${run.fold}
+log_file: ${paths.out_dir}/train.log
+summary_file: ${paths.out_dir}/summary.json
+experiment_config_file: ${paths.out_dir}/experiment_config.yaml
+oof_file: ${paths.out_dir}/oof.csv

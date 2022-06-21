@@ -1,0 +1,40 @@
+defaults:
+  - paths: jarvislabs
+  - trainer: deberta_v3_base
+
+  # disable logging by Hydra
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none
+  - _self_
+
+data:
+  use_custom_seperator: False
+
+model:
+  model_name: microsoft/deberta-v3-base
+  class_name: DebertaV2ForSequenceClassificationGeneral
+  loss_type: mse
+  multi_sample_dropout: False
+  attention_pool: False
+
+run:
+  exp_num: "00" # serial number of experiment
+  name: baseline
+  experiment_name: ${run.exp_num}_${model.model_name}_${run.name}
+  comment: "baseline"
+  n_folds: 5
+  fold: 0
+  debug: False
+  disable_warnings: True
+  upload_artifacts_to_gcs_bucket: True
+  gcs_bucket_name: gs://uspppm-artifacts #gs://uspppm-artifacts-asia
+  gc_service_account: <your-service-account>
+  slack_notify: True
+  print_model_arch: False
+
+wandb:
+  enabled: True
+  log_artifacts: False
+  project: USPPPM-Kaggle
+  notes: ${run.comment}
+  name: fold_${run.fold}
