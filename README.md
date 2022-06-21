@@ -60,4 +60,4 @@ python3 -c "from jarviscloud import jarviscloud; jarviscloud.pause()"
 - You can choose any trainer configuration you want from various `*.yaml` files in `config/trainer` folder.
 
 # Inference
-You can check out the final ensemble inference code submission for this competition in Kaggle notebook [here](https://www.kaggle.com/code/atharvaingle/uspppm-inference-ensemble-hill-climbing/notebook)# U.S.-Patent-Phrase-to-Phrase-Matching-Kaggle
+You can check out the final ensemble inference code submission for this competition in Kaggle notebook [here](https://www.kaggle.com/code/atharvaingle/uspppm-inference-ensemble-hill-climbing/notebook)
