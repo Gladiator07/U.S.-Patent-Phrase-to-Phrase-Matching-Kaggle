@@ -1,7 +1,7 @@
 # U.S. Patent Phrase to Phrase Matching
 
 # Introduction
-This repository contains the code that achieved 31st place in [U.S. Patent Phrase to Phrase Matching](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching). You can see the detailed explanation of the solution [here]().
+This repository contains the code that achieved 31st place in [U.S. Patent Phrase to Phrase Matching](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching). You can see the detailed explanation of the solution [here](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/discussion/332355).
 
 You can also view all the experiments logs on Weights & Biases dashboard [here](https://wandb.ai/gladiator/USPPPM-Kaggle).
 
